@@ -216,6 +216,12 @@ margin-left: 10px;
 color: black;
 font-weight: bold;
 }
+.power-section{
+  height: 65vh;
+  background-image: url("../img/8116\ 1.png");
+  background-position: center;
+  background-size: cover;
+}
 
 
 
@@ -300,8 +306,8 @@ font-weight: bold;
     width: 60%;
     left: -10px;
     bottom: -10px;
-    }
-    .info-features span{
-      font-size: 12px;
-      }
+  }
+  .info-features span {
+    font-size: 12px;
+  }
 }
