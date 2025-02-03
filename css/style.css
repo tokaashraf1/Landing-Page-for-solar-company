@@ -5,17 +5,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   font-family: 'Arial', sans-serif;
   font-family: "Plus Jakarta Sans", serif;
 }
-
 :root {
   --header-bg: #0b9586;
   --yellow-bg: #FFBB1C
 }
-
 /* navbar styles*/
 nav {
   position: fixed;
@@ -25,7 +22,6 @@ nav {
   background-color: var(--header-bg);
   z-index: 100000000;
 }
-
 .nav-container {
   display: flex;
   align-items: center;
