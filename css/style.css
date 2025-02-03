@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-family: 'Arial', sans-serif;
   font-family: "Plus Jakarta Sans", serif;
 }
+
 :root {
   --header-bg: #0b9586;
+  --yellow-bg: #FFBB1C
 }
+
 /* navbar styles*/
 nav {
   position: fixed;
@@ -20,147 +25,209 @@ nav {
   background-color: var(--header-bg);
   z-index: 100000000;
 }
-.nav-container{
+
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width:85%;
+  width: 85%;
   margin: auto;
 }
+
 .logo {
-background-image: url('../img/logo.png');
-background-size: cover;
-background-position: center;
-mix-blend-mode: multiply;
-margin: 15px 0 15px 0;
-width: 120px;
-height: 37px;
+  background-image: url('../img/logo.png');
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: multiply;
+  margin: 15px 0 15px 0;
+  width: 120px;
+  height: 37px;
 }
-.nav-links{
+
+.nav-links {
   list-style: none;
   display: flex;
-  gap: 40px;  
+  gap: 40px;
 }
-.nav-links a,.contact a,.mobile-menu a{
+
+.nav-links a,
+.contact a,
+.mobile-menu a {
   text-decoration: none;
   color: white;
   font-size: 16px;
 }
-.nav-links li, .mobile-menu li{
+
+.nav-links li,
+.mobile-menu li {
   padding: 5px 20px 5px 20px;
   border-radius: 5px;
 }
-.contact a ,#number{
+
+.contact a,
+#number {
   font-size: 22px;
   font-weight: bold;
 }
-.contact p{
-color: white;
-font-size: 16px;
-text-align: right;
+
+.contact p {
+  color: white;
+  font-size: 16px;
+  text-align: right;
 }
-.nav-links li:hover ,.nav-links li:active,.active{
-background-color: #0b8475c7;
-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+
+.nav-links li:hover,
+.nav-links li:active,
+.active {
+  background-color: #0b8475c7;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
 }
-.hamburger{
+
+.hamburger {
   display: none;
 }
-.mobile-menu{
+
+.mobile-menu {
   display: none;
 }
-.hamburger{
+
+.hamburger {
   font-size: 30px;
   color: white;
 }
-.mobile-menu-active
-{
-  display:block;
+
+.mobile-menu-active {
+  display: block;
   text-align: center;
 }
+
 /* home first section */
-.home{
+.home {
   background-image: url('../img/solar-panels-meadow\ 1.png');
   background-size: cover;
-  background-position: center;  
+  background-position: center;
   height: 95vh;
   margin-top: 50px;
 }
+
 .home-container {
   margin-left: 7.5%;
   position: relative;
   height: 95vh;
 }
+
 .text-white {
   color: white;
 }
+
 .line-container {
   position: absolute;
   width: 100%;
   top: 15%;
   display: flex;
   align-items: center;
-  gap: 10px; /* Space between elements */
+  gap: 10px;
+  /* Space between elements */
 }
+
 .outer-line {
   width: 23%;
   height: 5px;
-  background-color: #575757; /* Dark background */
+  background-color: #575757;
+  /* Dark background */
   position: relative;
 }
+
 .inner-line {
-  width: 35%; /* Adjust to control white fill */
+  width: 35%;
+  /* Adjust to control white fill */
   height: 5px;
   background-color: white;
   position: absolute;
   left: 0;
 }
-.home-number{
+
+.home-number {
   margin-left: 25px;
 }
-.solar-text{
+
+.solar-text {
   position: absolute;
   top: 30%;
   width: 50%;
 }
-.solar-text-heading{
+.solar-text-heading {
   font-size: 50px;
   font-weight: 600;
 }
-.solar-text-content{
+.solar-text-content {
   font-size: 20px;
   margin-top: 20px;
 }
-.solar-text-btns{
+.solar-text-btns {
   margin-top: 30px;
 }
-.solar-btn1{
-  border: none ;
+.solar-btn1 {
+  border: none;
   padding: 10px 35px 10px 35px;
   border-radius: 30px;
-background-color: #3CAB90;
-color: white;
+  background-color: #3CAB90;
+  color: white;
 }
-.solar-btn2{
-  border: none ;
+.solar-btn2 {
+  border: none;
   padding: 10px 35px 10px 35px;
   border-radius: 30px;
   margin-left: 20px;
   background-color: #FFBB1C;
 }
 /* info seconed section */
-.info-section{
+.info-section {
   height: 92vh;
-  background-color: black;  
+  position: relative;
 }
-
-
-
-
-
-
-
-
+.info-section-container {
+  margin-left: 7.5%;
+  position: absolute;
+  top: 15%;
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+}
+.info-section-box2 {
+margin-right: 7.5%;
+}
+.info-section-box1{
+  width: 50%;
+}
+.info-section-heading {
+  font-weight: 600;
+  font-size: 45px;
+}
+.info-section-text {
+  margin-top: 40px;
+  font-size: 18px;
+}
+.box2-img-container{
+  position: relative;
+}
+.box2-img-rectangle {
+  background-color: #FFBB1C;
+  width: 50%;
+  height: 200px;
+  position: absolute;
+  bottom: 10%;
+  left: -45px;
+  border-radius: 10px;
+}
+.box2-img-rectangle img{
+width: 80px;
+margin: 20px 20px ;
+}
+.box2-img-rectangle p{
+font-size: 12px;
+margin-left: 20px;
+}
 
 
 
@@ -172,16 +239,29 @@ color: white;
 
 
 /* Responsive */
-@media(max-width:992px){
-.contact a {
-  font-size: 16px;
+@media (max-width:1000px){
+  .info-section-heading {
+    font-size: 25px;
+  }
+  .info-section-text {
+    font-size: 16px;
+  }
+  .info-section-box2 img{
+    max-width: 90%;
+  }
 }
-.contact p,.nav-links a{
-  font-size: 12px;
+@media(max-width:992px) {
+  .contact a {
+    font-size: 16px;
+  }
+  .contact p,
+  .nav-links a {
+    font-size: 12px;
+  }
+  #number {
+    font-size: 18px;
+  }
 }
-#number{
-  font-size: 18px;
-}}
 @media(max-width:850px) {
   .nav-links,
   .contact {
@@ -201,19 +281,37 @@ color: white;
   .hamburger {
     display: block;
   }
-  .solar-text{
+  .solar-text {
     width: 95%;
   }
-  .solar-text-heading{
+  .solar-text-heading {
     font-size: 25px;
   }
-  .solar-text-content{
+  .solar-text-content {
     font-size: 18px;
   }
+  .info-section-container {
+    flex-direction: column;
+  }
+  .info-section-box1,.info-section-box2{
+    width: 100%;
+  }
+  .info-section-box2 img{
+    max-width: 90%;
+  }
+  .box2-img-rectangle {
+  width: 40%;
+  }
 }
-@media(max-width:500px){
-  .solar-btn2{
+@media(max-width:768px) {}
+@media(max-width:500px) {
+  .solar-btn2 {
     margin-left: 0;
     margin-top: 5px;
   }
+  .box2-img-rectangle {
+    width: 60%;
+    left: -10px;
+    bottom: -10px;
+    }
 }

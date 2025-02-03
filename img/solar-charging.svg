@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="solar-charging">
+  <path d="M49,48h8V32H49Zm4-13v5h3l-3,5V40H50Z"></path>
+  <rect width="2" height="2" x="52" y="55"></rect>
+  <path d="M59 29H47a1 1 0 0 0-1 1V52a1 1 0 0 0 1 1H59a1 1 0 0 0 1-1V30A1 1 0 0 0 59 29zm0 20a1 1 0 0 1-1 1H48a1 1 0 0 1-1-1V31a1 1 0 0 1 1-1H58a1 1 0 0 1 1 1zM26 42V30a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1V42a1 1 0 0 0 1 1H25A1 1 0 0 0 26 42zM15 41V36H12l3-5v5h3z"></path>
+  <rect width="2" height="1" x="14" y="45"></rect>
+  <polygon points="41.31 11 51.13 11 50.7 8 40.95 8 41.31 11"></polygon>
+  <polygon points="38.94 8 25.06 8 24.71 11 39.29 11 38.94 8"></polygon>
+  <polygon points="41.89 16 51.85 16 51.42 13 41.54 13 41.89 16"></polygon>
+  <polygon points="50.42 6 50.13 4 40.49 4 40.72 6 50.42 6"></polygon>
+  <polygon points="38.47 4 25.53 4 25.29 6 38.71 6 38.47 4"></polygon>
+  <polygon points="22.46 13 12.58 13 12.15 16 22.11 16 22.46 13"></polygon>
+  <polygon points="23.05 8 13.3 8 12.87 11 22.69 11 23.05 8"></polygon>
+  <polygon points="23.51 4 13.87 4 13.58 6 23.28 6 23.51 4"></polygon>
+  <polygon points="39.53 13 24.47 13 24.12 16 39.88 16 39.53 13"></polygon>
+  <rect width="4" height="2" x="30" y="18"></rect>
+  <path d="M43 55l-4-3v2H37V48H35v7a1 1 0 0 0 1 1h3v2zM21 55l4 3V56h3a1 1 0 0 0 1-1V48H27v6H25V52z"></path>
+  <rect width="10" height="2" x="10" y="47"></rect>
+  <path d="M52,60H33V21H31V60H16V50H14V61a1,1,0,0,0,1,1H53a1,1,0,0,0,1-1V58H52Z"></path>
+</svg>
