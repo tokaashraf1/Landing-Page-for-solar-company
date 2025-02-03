@@ -224,6 +224,19 @@ font-weight: bold;
   background-position: center;
   background-size: cover;
 }
+.power-section p{
+  margin-left: 7.5%;
+  color: white;
+  
+}
+.power-section-heading{
+  padding-top: 10%;
+  font-size: 40px;
+}
+.power-section-text{
+  margin-top: 20px;
+  font-size: 18px;
+}
 
 
 
