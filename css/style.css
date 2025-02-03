@@ -234,8 +234,16 @@ font-weight: bold;
   font-size: 40px;
 }
 .power-section-text{
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 18px;
+}
+.power-section button{
+  margin-left: 7.5%;
+  margin-top: 30px;
+  border: none;
+  padding: 10px 35px 10px 35px;
+  border-radius: 30px;
+  background-color: #FFBB1C;
 }
 
 
@@ -328,5 +336,8 @@ font-weight: bold;
   }
   .info-section-container {
     padding-bottom: 10%;
+  }
+  .power-section-heading{
+    font-size: 35px;
   }
 }
