@@ -159,13 +159,15 @@ nav {
 }
 /* info seconed section */
 .info-section {
-  height: 92vh;
+  min-height: 95vh;
   position: relative;
 }
 .info-section-container {
   margin-left: 7.5%;
-  position: absolute;
-  top: 15%;
+  /* position: absolute;
+  top: 15%; */
+  padding-top: 5%;
+  padding-bottom: 5%;
   display: flex;
   gap: 100px;
   justify-content: space-between;
@@ -242,6 +244,7 @@ font-weight: bold;
   .info-section-box2 img{
     max-width: 90%;
   }
+
 }
 @media(max-width:992px) {
   .contact a {
@@ -309,5 +312,8 @@ font-weight: bold;
   }
   .info-features span {
     font-size: 12px;
+  }
+  .info-section-container {
+    padding-bottom: 10%;
   }
 }
