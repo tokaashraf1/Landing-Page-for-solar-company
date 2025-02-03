@@ -148,7 +148,11 @@ color: white;
   margin-left: 20px;
   background-color: #FFBB1C;
 }
-
+/* info seconed section */
+.info-section{
+  height: 92vh;
+  background-color: black;  
+}
 
 
 
