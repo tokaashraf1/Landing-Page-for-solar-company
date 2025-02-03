@@ -29,7 +29,6 @@ nav {
   width: 85%;
   margin: auto;
 }
-
 .logo {
   background-image: url('../img/logo.png');
   background-size: cover;
@@ -39,13 +38,11 @@ nav {
   width: 120px;
   height: 37px;
 }
-
 .nav-links {
   list-style: none;
   display: flex;
   gap: 40px;
 }
-
 .nav-links a,
 .contact a,
 .mobile-menu a {
@@ -53,50 +50,41 @@ nav {
   color: white;
   font-size: 16px;
 }
-
 .nav-links li,
 .mobile-menu li {
   padding: 5px 20px 5px 20px;
   border-radius: 5px;
 }
-
 .contact a,
 #number {
   font-size: 22px;
   font-weight: bold;
 }
-
 .contact p {
   color: white;
   font-size: 16px;
   text-align: right;
 }
-
 .nav-links li:hover,
 .nav-links li:active,
 .active {
   background-color: #0b8475c7;
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
 }
-
 .hamburger {
   display: none;
 }
-
 .mobile-menu {
   display: none;
 }
-
 .hamburger {
   font-size: 30px;
   color: white;
 }
-
 .mobile-menu-active {
   display: block;
   text-align: center;
 }
-
 /* home first section */
 .home {
   background-image: url('../img/solar-panels-meadow\ 1.png');
@@ -105,17 +93,14 @@ nav {
   height: 95vh;
   margin-top: 50px;
 }
-
 .home-container {
   margin-left: 7.5%;
   position: relative;
   height: 95vh;
 }
-
 .text-white {
   color: white;
 }
-
 .line-container {
   position: absolute;
   width: 100%;
@@ -123,26 +108,20 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
-  /* Space between elements */
 }
-
 .outer-line {
   width: 23%;
   height: 5px;
   background-color: #575757;
-  /* Dark background */
   position: relative;
 }
-
 .inner-line {
   width: 35%;
-  /* Adjust to control white fill */
   height: 5px;
   background-color: white;
   position: absolute;
   left: 0;
 }
-
 .home-number {
   margin-left: 25px;
 }
