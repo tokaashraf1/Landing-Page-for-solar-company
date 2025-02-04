@@ -158,7 +158,7 @@ nav {
   background-color: #FFBB1C;
 }
 /* info seconed section */
-.info-section {
+.info-section ,.solarkits-section {
   min-height: 95vh;
   position: relative;
 }
@@ -244,6 +244,10 @@ font-weight: bold;
   padding: 10px 35px 10px 35px;
   border-radius: 30px;
   background-color: #FFBB1C;
+}
+/* solar kits section */
+.solarkits-container{
+margin-left: 7.5%;
 }
 
 
