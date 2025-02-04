@@ -257,8 +257,15 @@ margin-left: 7.5%;
   text-align: center;
   margin-top:15px;
 }
-.solarkits-cards{
+.solarkits-cards-container{
 margin-right: 7.5%;
+display: flex;
+justify-content: space-between;
+}
+
+.solarkits-cards{
+  width: 30%;
+  background-color: #3CAB90;
 }
 
 
