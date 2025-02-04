@@ -249,7 +249,10 @@ font-weight: bold;
 .solarkits-container{
 margin-left: 7.5%;
 }
-
+.solarkits-container h1{
+  text-align: center;
+  padding-top: 7%;
+}
 
 
 
