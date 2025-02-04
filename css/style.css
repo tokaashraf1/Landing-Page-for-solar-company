@@ -220,7 +220,7 @@ font-weight: bold;
 }
 /* power section */
 .power-section{
-  height: 65vh;
+  min-height: 65vh;
   background-image: url("../img/8116\ 1.png");
   background-position: center;
   background-size: cover;
@@ -365,4 +365,8 @@ margin-right: 7.5%;
   .power-section-heading{
     font-size: 35px;
   }
+.solarkits-container h1{
+  text-align: center;
+  padding-top: 20%;
+}
 }
