@@ -261,7 +261,7 @@ margin-left: 7.5%;
 margin-right: 7.5%;
 display: flex;
 justify-content: space-between;
-margin-top: 30px;
+margin-top: 40px;
 
 }
 
@@ -279,6 +279,14 @@ padding-bottom: 30px;
 }
 .cards-text p:nth-of-type(1) {
   margin-top: 20px;
+}
+.cards-text p:nth-of-type(4) {
+  margin-top: 20px;
+  font-weight: bold;
+  color:#3CAB90;
+}
+.cards-text i {
+margin-left: 10px;
 }
 
 
