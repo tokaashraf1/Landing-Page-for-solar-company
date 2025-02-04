@@ -291,9 +291,26 @@ margin-left: 10px;
 .repair-section{
 min-height: 65vh;
 background-image: url("../img/Repair-section.png");
+background-position: center;
+background-size: cover;
+display: flex;
+align-items: center;
 }
-
-
+.repair-section-container{
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.507);
+  margin: auto;
+  padding: 70px 0; 
+  border-radius: 10px; 
+  backdrop-filter: blur(6px);
+}
+.repair-section-container h1 ,.repair-section-container p{
+  text-align: center;
+  color: white;
+}
+.repair-section-container p:nth-of-type(1) {
+  margin-top: 30px;
+}
 
 
 
