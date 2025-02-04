@@ -261,14 +261,25 @@ margin-left: 7.5%;
 margin-right: 7.5%;
 display: flex;
 justify-content: space-between;
+margin-top: 30px;
+
 }
 
-.solarkits-cards{
-  width: 30%;
-  background-color: #3CAB90;
+.solarkits-cards {
+border: 2px solid black;
+padding-bottom: 30px;
 }
 
-
+.solarkits-cards img{
+  max-width: 100%;
+}
+.cards-text{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.cards-text p:nth-of-type(1) {
+  margin-top: 20px;
+}
 
 
 
@@ -351,8 +362,17 @@ justify-content: space-between;
   .box2-img-rectangle {
   width: 40%;
   }
+  .solarkits-cards-container{
+  flex-direction: column; 
+  justify-content: center;
+    }
+    .solarkits-cards{
+    margin: auto;
+    }
 }
-@media(max-width:768px) {}
+@media(max-width:768px) {
+
+}
 @media(max-width:500px) {
   .solar-btn2 {
     margin-left: 0;
