@@ -431,6 +431,18 @@ margin-left: 10px;
   #number {
     font-size: 18px;
   }
+  .energy-section-container{
+    flex-direction: column;
+  }
+  .energy-section-text{
+  width: 100%;
+  }
+  .energy-cards-box1,.energy-cards-box2{
+    justify-content: center;
+  }
+  .energy-cards-box1{
+    margin-top: 30px;
+  }
 }
 @media(max-width:850px) {
   .nav-links,
@@ -483,7 +495,13 @@ margin-left: 10px;
 
 }
 @media(max-width:768px) {
-
+  .energy-cards-box1,.energy-cards-box2{
+flex-direction: column;
+    }
+    .energy-cards{
+  width: 60%;
+  margin:auto;
+      }
 }
 @media(max-width:500px) {
   .solar-btn2 {
@@ -518,4 +536,7 @@ font-size: 25px;
 .repair-section-container p{
 font-size: 14px;
 }
+.energy-cards{
+  width: 95%;
+      }
 }
