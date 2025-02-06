@@ -424,4 +424,14 @@ align-items: center;
   text-align: center;
   padding-top: 20%;
 }
+.repair-section-container{
+  width: 85%;
+  padding: 30px;
+}
+.repair-section-container h1{
+font-size: 25px;
+}
+.repair-section-container p{
+font-size: 14px;
+}
 }
