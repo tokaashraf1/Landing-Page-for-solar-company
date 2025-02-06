@@ -311,7 +311,14 @@ align-items: center;
 .repair-section-container p:nth-of-type(1) {
   margin-top: 30px;
 }
-
+.energy-section{
+min-height: 95vh;
+padding: 50px 0;
+}
+.energy-section-container{
+  width: 85%;
+  margin: auto;
+}
 
 
 
