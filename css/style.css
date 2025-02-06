@@ -398,10 +398,38 @@ margin-top: 20px;
 .energy-cards i {
 margin-left: 10px;
 }
-
-
-
-
+/* our values section  */
+.our-values{
+min-height: 95vh;
+}
+.our-values{
+min-height: 95vh;
+word-wrap: break-word;
+}
+.our-values h1{
+text-align: center;
+padding-top: 7%;
+}
+.our-values p:nth-of-type(1) {
+text-align: center;
+margin-top: 20px;
+color: #475467;
+}
+.our-values-container{
+width: 85%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+word-wrap: break-word;
+}
+.our-values-cards{
+  width: 27%;
+background-color: #3CAB900D;
+margin-top: 30px;
+padding: 20px;
+border-radius: 10px;
+border: 1px solid #3CAB90;
+}
 
 
 
