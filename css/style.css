@@ -313,7 +313,7 @@ align-items: center;
 }
 .energy-section{
 min-height: 95vh;
-padding: 50px 0;
+padding: 70px 0;
 background-color: #FFBB1C0D;
 }
 .energy-section-container{
@@ -321,9 +321,13 @@ background-color: #FFBB1C0D;
   margin: auto;
   display: flex;
   word-wrap: break-word;
+  /* gap: 30px; */
+  flex-wrap:wrap;
 }
 .energy-section-text{
   word-wrap: break-word;
+  width: 30%;
+
 }
 .energy-text-icon{
   background-color: var(--header-bg);
@@ -335,10 +339,44 @@ background-color: #FFBB1C0D;
   border-radius: 10px;
   box-shadow: #3CAB9026 0px 0px 0px 8px;
 }
-.energy-section-text h2{
+.energy-section-text h1{
 padding-top: 20px;
+font-size: 42px;
 }
+.energy-section-cards-container{
+flex: 1;
+}
+.energy-cards-box1,.energy-cards-box2{
+display: flex;
+flex-wrap:wrap;
+justify-content: end;
+gap: 40px;
 
+}
+.energy-cards{
+  padding: 20px;
+border: 1px solid var(--header-bg);
+width: 33%;
+border-radius: 10px;
+background-color: #3CAB900D;
+}
+.energy-cards-img{
+height: 85px;
+background-color: #3CAB9026;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+
+
+
+}
+.energy-cards-img img{
+  mix-blend-mode:luminosity;
+  opacity: 0.5;
+  filter: grayscale(100%);
+max-width: 100%;
+}
 
 
 
@@ -362,6 +400,9 @@ padding-top: 20px;
   .info-section-box2 img{
     max-width: 90%;
   }
+  .energy-section-text h1{
+    font-size: 30px;
+    }
 }
 @media(max-width:992px) {
   .contact a {
@@ -423,6 +464,7 @@ padding-top: 20px;
     .solarkits-cards{
     margin: auto;
     }
+
 }
 @media(max-width:768px) {
 
