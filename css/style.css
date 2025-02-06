@@ -367,7 +367,7 @@ border-radius: 10px;
 background-color: #3CAB900D;
 transition: transform 0.3s ease-in-out;
 }
-.energy-cards:hover ,.solarkits-cards:hover ,.solar-btn1:hover,.solar-btn2:hover,.power-section button:hover{
+.energy-cards:hover ,.solarkits-cards:hover ,.solar-btn1:hover,.solar-btn2:hover,.power-section button:hover,.our-values-cards:hover{
   transform: scale(1.03); /* Increases size by 10% on hover */
 }
 .energy-cards-img{
@@ -410,7 +410,7 @@ word-wrap: break-word;
 text-align: center;
 padding-top: 7%;
 }
-.our-values p:nth-of-type(1) {
+.our-values-text {
 text-align: center;
 margin-top: 20px;
 color: #475467;
@@ -426,9 +426,19 @@ word-wrap: break-word;
   width: 27%;
 background-color: #3CAB900D;
 margin-top: 30px;
-padding: 20px;
+padding: 25px;
 border-radius: 10px;
 border: 1px solid #3CAB90;
+
+}
+.our-values-cards h4{
+margin-top: 10px;
+}
+.our-values-cards p{
+text-align:left;
+margin-top: 10px;
+font-size: 18px;
+line-height: 25px;
 }
 
 
@@ -442,6 +452,14 @@ border: 1px solid #3CAB90;
   .solarkits-cards-container {
     gap: 30px;
   }
+  .our-values-container{
+
+    justify-content: none;
+    flex-wrap: wrap;
+          }
+          .our-values-cards{
+            width: 40%;
+          }
 }
 @media (max-width:1000px){
   .info-section-heading {
@@ -456,6 +474,8 @@ border: 1px solid #3CAB90;
   .energy-section-text h1{
     font-size: 30px;
     }
+  
+    
 }
 @media(max-width:992px) {
   .contact a {
@@ -529,7 +549,9 @@ border: 1px solid #3CAB90;
     .solarkits-cards{
     margin: auto;
     }
-
+    .our-values-cards{
+      width: 45%;
+    }
 }
 @media(max-width:768px) {
   .energy-cards-box1,.energy-cards-box2{
@@ -539,6 +561,14 @@ flex-direction: column;
   width: 60%;
   margin:auto;
       }
+.our-values-container {
+  flex-direction: column;
+  }
+  .our-values-cards{
+    width: 68%;
+    margin: auto;
+    margin-top: 30px;
+  }
 }
 @media(max-width:500px) {
   .solar-btn2 {
@@ -575,5 +605,10 @@ font-size: 14px;
 }
 .energy-cards{
   width: 95%;
+      }
+      .our-values-cards{
+        width: 95%;
+        margin: auto;
+        margin-top: 30px;
       }
 }
