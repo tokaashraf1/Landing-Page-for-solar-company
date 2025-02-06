@@ -327,7 +327,11 @@ background-color: #FFBB1C0D;
 .energy-section-text{
   word-wrap: break-word;
   width: 30%;
-
+}
+.energy-section-text p{
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 30px;
 }
 .energy-text-icon{
   background-color: var(--header-bg);
@@ -351,12 +355,14 @@ display: flex;
 flex-wrap:wrap;
 justify-content: end;
 gap: 40px;
-
+}
+.energy-cards-box2{
+  margin-top: 30px;
 }
 .energy-cards{
   padding: 20px;
-border: 1px solid var(--header-bg);
-width: 33%;
+border: 1px solid #3CAB90;
+width: 35%;
 border-radius: 10px;
 background-color: #3CAB900D;
 }
@@ -367,9 +373,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 border-radius: 10px;
-
-
-
 }
 .energy-cards-img img{
   mix-blend-mode:luminosity;
@@ -377,7 +380,20 @@ border-radius: 10px;
   filter: grayscale(100%);
 max-width: 100%;
 }
-
+.energy-cards h4{
+margin-top: 30px;
+}
+.energy-cards p{
+  margin-top: 10px;
+}
+.energy-cards p:nth-of-type(2) {
+margin-top: 20px;
+  font-weight: bold;
+  color:#3CAB90;
+}
+.energy-cards i {
+margin-left: 10px;
+}
 
 
 
