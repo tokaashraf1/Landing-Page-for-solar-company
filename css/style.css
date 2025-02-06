@@ -360,14 +360,14 @@ gap: 40px;
   margin-top: 30px;
 }
 .energy-cards{
-  padding: 20px;
+padding: 20px;
 border: 1px solid #3CAB90;
-width: 35%;
+width: 36%;
 border-radius: 10px;
 background-color: #3CAB900D;
 }
 .energy-cards-img{
-height: 85px;
+height: 90px;
 background-color: #3CAB9026;
 display: flex;
 justify-content: center;
