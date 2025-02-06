@@ -266,9 +266,9 @@ margin-top: 40px;
 }
 .solarkits-cards {
 padding-bottom: 30px;
+transition: transform 0.3s ease-in-out;
 box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
-
 .solarkits-cards img{
   max-width: 100%;
 }
@@ -365,6 +365,10 @@ border: 1px solid #3CAB90;
 width: 36%;
 border-radius: 10px;
 background-color: #3CAB900D;
+transition: transform 0.3s ease-in-out;
+}
+.energy-cards:hover ,.solarkits-cards:hover ,.solar-btn1:hover,.solar-btn2:hover,.power-section button:hover{
+  transform: scale(1.03); /* Increases size by 10% on hover */
 }
 .energy-cards-img{
 height: 90px;
@@ -406,6 +410,11 @@ margin-left: 10px;
 
 
 /* Responsive */
+@media (max-width:1200px){
+  .solarkits-cards-container {
+    gap: 30px;
+  }
+}
 @media (max-width:1000px){
   .info-section-heading {
     font-size: 25px;
