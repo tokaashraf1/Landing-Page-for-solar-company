@@ -518,7 +518,11 @@ font-weight: 600;
 .box2-row3-row1 img{
 max-width: 100%;
 }
-
+.woc-row3-arrows{
+  display: flex;
+  gap: 15px;
+  margin-top: 15%;
+}
 
 
 
