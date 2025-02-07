@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
   margin: 0;
@@ -6,13 +6,13 @@
   box-sizing: border-box;
 }
 html {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   font-family: "Plus Jakarta Sans", serif;
 }
 :root {
   --header-bg: #0b9586;
-  --yellow-bg: #FFBB1C;
-  --light-green:#84BD3A;
+  --yellow-bg: #ffbb1c;
+  --light-green: #84bd3a;
 }
 /* navbar styles*/
 nav {
@@ -31,7 +31,7 @@ nav {
   margin: auto;
 }
 .logo {
-  background-image: url('../img/logo.png');
+  background-image: url("../img/logo.png");
   background-size: cover;
   background-position: center;
   mix-blend-mode: multiply;
@@ -88,7 +88,7 @@ nav {
 }
 /* home first section */
 .home {
-  background-image: url('../img/solar-panels-meadow\ 1.png');
+  background-image: url("../img/solar-panels-meadow\ 1.png");
   background-size: cover;
   background-position: center;
   height: 95vh;
@@ -147,7 +147,7 @@ nav {
   border: none;
   padding: 10px 35px 10px 35px;
   border-radius: 30px;
-  background-color: #3CAB90;
+  background-color: #3cab90;
   color: white;
 }
 .solar-btn2 {
@@ -155,10 +155,11 @@ nav {
   padding: 10px 35px 10px 35px;
   border-radius: 30px;
   margin-left: 20px;
-  background-color: #FFBB1C;
+  background-color: #ffbb1c;
 }
 /* info seconed section */
-.info-section ,.solarkits-section {
+.info-section,
+.solarkits-section,.woc-section{
   min-height: 95vh;
   position: relative;
 }
@@ -173,9 +174,9 @@ nav {
   justify-content: space-between;
 }
 .info-section-box2 {
-margin-right: 7.5%;
+  margin-right: 7.5%;
 }
-.info-section-box1{
+.info-section-box1 {
   width: 50%;
 }
 .info-section-heading {
@@ -186,11 +187,11 @@ margin-right: 7.5%;
   margin-top: 40px;
   font-size: 18px;
 }
-.box2-img-container{
+.box2-img-container {
   position: relative;
 }
 .box2-img-rectangle {
-  background-color: #FFBB1C;
+  background-color: #ffbb1c;
   width: 50%;
   height: 200px;
   position: absolute;
@@ -198,81 +199,82 @@ margin-right: 7.5%;
   left: -45px;
   border-radius: 10px;
 }
-.box2-img-rectangle img{
-width: 80px;
-margin: 20px 20px ;
+.box2-img-rectangle img {
+  width: 80px;
+  margin: 20px 20px;
 }
-.box2-img-rectangle p{
-font-size: 12px;
-margin-left: 20px;
+.box2-img-rectangle p {
+  font-size: 12px;
+  margin-left: 20px;
 }
-.info-features{
+.info-features {
   margin-top: 50px;
 }
-.info-features p{
-color: var(--light-green);
-line-height: 35px;
+.info-features p {
+  color: var(--light-green);
+  line-height: 35px;
 }
-.info-features span{
-margin-left: 10px;
-color: black;
-font-weight: bold;
+.info-features span {
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
 }
 /* power section */
-.power-section{
+.power-section {
   min-height: 65vh;
   background-image: url("../img/8116\ 1.png");
   background-position: center;
   background-size: cover;
 }
-.power-section p{
+.power-section p {
   margin-left: 7.5%;
   color: white;
 }
-.power-section-heading{
+.power-section-heading {
   padding-top: 10%;
   font-size: 40px;
 }
-.power-section-text{
+.power-section-text {
   margin-top: 30px;
   font-size: 18px;
 }
-.power-section button{
+.power-section button {
   margin-left: 7.5%;
   margin-top: 30px;
   border: none;
   padding: 10px 35px 10px 35px;
   border-radius: 30px;
-  background-color: #FFBB1C;
+  background-color: #ffbb1c;
 }
 /* solar kits section */
-.solarkits-container{
-margin-left: 7.5%;
-padding-bottom: 100px;
+.solarkits-container {
+  margin-left: 7.5%;
+  padding-bottom: 100px;
 }
-.solarkits-container h1{
+.solarkits-container h1 {
   text-align: center;
   padding-top: 7%;
 }
-.solarkits-text{
+.solarkits-text {
   text-align: center;
-  margin-top:15px;
+  margin-top: 15px;
 }
-.solarkits-cards-container{
-margin-right: 7.5%;
-display: flex;
-justify-content: space-between;
-margin-top: 40px;
+.solarkits-cards-container {
+  margin-right: 7.5%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 .solarkits-cards {
-padding-bottom: 30px;
-transition: transform 0.3s ease-in-out;
-box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  padding-bottom: 30px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
-.solarkits-cards img{
+.solarkits-cards img {
   max-width: 100%;
 }
-.cards-text{
+.cards-text {
   margin-top: 20px;
   margin-left: 20px;
 }
@@ -282,58 +284,59 @@ box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24p
 .cards-text p:nth-of-type(4) {
   margin-top: 20px;
   font-weight: bold;
-  color:#3CAB90;
+  color: #3cab90;
 }
 .cards-text i {
-margin-left: 10px;
+  margin-left: 10px;
 }
 /* repair section */
-.repair-section{
-min-height: 65vh;
-background-image: url("../img/Repair-section.png");
-background-position: center;
-background-size: cover;
-display: flex;
-align-items: center;
+.repair-section {
+  min-height: 65vh;
+  background-image: url("../img/Repair-section.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
 }
-.repair-section-container{
+.repair-section-container {
   width: 60%;
   background-color: rgba(0, 0, 0, 0.507);
   margin: auto;
-  padding: 70px 0; 
-  border-radius: 10px; 
+  padding: 70px 0;
+  border-radius: 10px;
   backdrop-filter: blur(6px);
 }
-.repair-section-container h1 ,.repair-section-container p{
+.repair-section-container h1,
+.repair-section-container p {
   text-align: center;
   color: white;
 }
 .repair-section-container p:nth-of-type(1) {
   margin-top: 30px;
 }
-.energy-section{
-min-height: 95vh;
-padding: 70px 0;
-background-color: #FFBB1C0D;
+.energy-section {
+  min-height: 95vh;
+  padding: 70px 0;
+  background-color: #ffbb1c0d;
 }
-.energy-section-container{
+.energy-section-container {
   width: 85%;
   margin: auto;
   display: flex;
   word-wrap: break-word;
   /* gap: 30px; */
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
-.energy-section-text{
+.energy-section-text {
   word-wrap: break-word;
   width: 30%;
 }
-.energy-section-text p{
+.energy-section-text p {
   margin-top: 20px;
   font-size: 18px;
   line-height: 30px;
 }
-.energy-text-icon{
+.energy-text-icon {
   background-color: var(--header-bg);
   width: 40px;
   height: 40px;
@@ -341,105 +344,181 @@ background-color: #FFBB1C0D;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  box-shadow: #3CAB9026 0px 0px 0px 8px;
+  box-shadow: #3cab9026 0px 0px 0px 8px;
 }
-.energy-section-text h1{
-padding-top: 20px;
-font-size: 42px;
+.energy-section-text h1 {
+  padding-top: 20px;
+  font-size: 42px;
 }
-.energy-section-cards-container{
-flex: 1;
+.energy-section-cards-container {
+  flex: 1;
 }
-.energy-cards-box1,.energy-cards-box2{
-display: flex;
-flex-wrap:wrap;
-justify-content: end;
-gap: 40px;
+.energy-cards-box1,
+.energy-cards-box2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 40px;
 }
-.energy-cards-box2{
+.energy-cards-box2 {
   margin-top: 30px;
 }
-.energy-cards{
-padding: 20px;
-border: 1px solid #3CAB90;
-width: 36%;
-border-radius: 10px;
-background-color: #3CAB900D;
-transition: transform 0.3s ease-in-out;
+.energy-cards {
+  padding: 20px;
+  border: 1px solid #3cab90;
+  width: 36%;
+  border-radius: 10px;
+  background-color: #3cab900d;
+  transition: transform 0.3s ease-in-out;
 }
-.energy-cards:hover ,.solarkits-cards:hover ,.solar-btn1:hover,.solar-btn2:hover,.power-section button:hover,.our-values-cards:hover{
+.energy-cards:hover,
+.solarkits-cards:hover,
+.solar-btn1:hover,
+.solar-btn2:hover,
+.power-section button:hover,
+.our-values-cards:hover ,
+.woc-container-box2:hover{
   transform: scale(1.03); /* Increases size by 10% on hover */
 }
-.energy-cards-img{
-height: 90px;
-background-color: #3CAB9026;
-display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 10px;
+.energy-cards-img {
+  height: 90px;
+  background-color: #3cab9026;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
-.energy-cards-img img{
-  mix-blend-mode:luminosity;
+.energy-cards-img img {
+  mix-blend-mode: luminosity;
   opacity: 0.5;
   filter: grayscale(100%);
-max-width: 100%;
+  max-width: 100%;
 }
-.energy-cards h4{
-margin-top: 30px;
+.energy-cards h4 {
+  margin-top: 30px;
 }
-.energy-cards p{
+.energy-cards p {
   margin-top: 10px;
 }
 .energy-cards p:nth-of-type(2) {
-margin-top: 20px;
+  margin-top: 20px;
   font-weight: bold;
-  color:#3CAB90;
+  color: #3cab90;
 }
 .energy-cards i {
-margin-left: 10px;
+  margin-left: 10px;
 }
 /* our values section  */
-.our-values{
-min-height: 95vh;
+.our-values {
+  min-height: 95vh;
 }
-.our-values{
-min-height: 95vh;
-word-wrap: break-word;
+.our-values {
+  min-height: 95vh;
+  word-wrap: break-word;
 }
-.our-values h1{
-text-align: center;
-padding-top: 7%;
+.our-values h1 {
+  text-align: center;
+  padding-top: 7%;
 }
 .our-values-text {
-text-align: center;
-margin-top: 20px;
-color: #475467;
+  text-align: center;
+  margin-top: 20px;
+  color: #475467;
 }
-.our-values-container{
-width: 85%;
-margin: auto;
-display: flex;
-justify-content: space-between;
-word-wrap: break-word;
+.our-values-container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  word-wrap: break-word;
 }
-.our-values-cards{
+.our-values-cards {
   width: 27%;
-background-color: #3CAB900D;
+  background-color: #3cab900d;
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #3cab90;
+}
+.our-values-cards h4 {
+  margin-top: 10px;
+}
+.our-values-cards p {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 25px;
+}
+.woc-section-container{
+  width: 85%;
+  margin: auto;
+  padding: 130px 0;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10%;
+  word-wrap: break-word;
+}
+.woc-container-box1{
+  width: 35%;
+}
+.woc-container-box1 h1{
+font-size: 48px;
 margin-top: 30px;
-padding: 25px;
-border-radius: 10px;
-border: 1px solid #3CAB90;
-
 }
-.our-values-cards h4{
-margin-top: 10px;
+.woc-container-box2{
+flex: 1;
+background-color: #3CAB900F;
+border-radius: 20px;
+padding: 50px;
+/* height: 450px; */
+transition: transform 0.3s ease-in-out;
 }
-.our-values-cards p{
-text-align:left;
-margin-top: 10px;
+.woc-box2-row1,.woc-box2-row3{
+  display: flex;
+  justify-content: space-between;
+}
+.woc-box2-row1 p{
+color:#3CAB90 ;
 font-size: 18px;
-line-height: 25px;
+font-weight: 600;
 }
+.dots {
+  display: flex;
+  gap: 8px;
+}
+
+.dots span {
+  width: 8px;
+  height: 8px;
+  background-color: lightgray;
+  border-radius: 50%;
+}
+
+.dots span:first-child {
+  background-color: gray; /* Active dot */
+}
+.woc-box2-text{
+  margin-top: 40px;
+  width: 85%;
+  font-size: 24px;
+}
+.woc-box1-img{
+  margin-top: 15%;
+}
+.woc-container-box1 p{
+  margin-top: 30px;
+  font-size: 20px;
+}
+.box2-row3-row1{
+  display: flex;
+  margin-top: 15%;
+  line-height: 28px;
+  gap: 15px;
+}
+.box2-row3-row1 img{
+max-width: 100%;
+}
+
 
 
 
@@ -448,36 +527,33 @@ line-height: 25px;
 
 
 /* Responsive */
-@media (max-width:1200px){
+@media (max-width: 1200px) {
   .solarkits-cards-container {
     gap: 30px;
   }
-  .our-values-container{
-
+  .our-values-container {
     justify-content: none;
     flex-wrap: wrap;
-          }
-          .our-values-cards{
-            width: 40%;
-          }
+  }
+  .our-values-cards {
+    width: 40%;
+  }
 }
-@media (max-width:1000px){
+@media (max-width: 1000px) {
   .info-section-heading {
     font-size: 25px;
   }
   .info-section-text {
     font-size: 16px;
   }
-  .info-section-box2 img{
+  .info-section-box2 img {
     max-width: 90%;
   }
-  .energy-section-text h1{
+  .energy-section-text h1 {
     font-size: 30px;
-    }
-  
-    
+  }
 }
-@media(max-width:992px) {
+@media (max-width: 992px) {
   .contact a {
     font-size: 16px;
   }
@@ -488,20 +564,21 @@ line-height: 25px;
   #number {
     font-size: 18px;
   }
-  .energy-section-container{
+  .energy-section-container {
     flex-direction: column;
   }
-  .energy-section-text{
-  width: 100%;
+  .energy-section-text {
+    width: 100%;
   }
-  .energy-cards-box1,.energy-cards-box2{
+  .energy-cards-box1,
+  .energy-cards-box2 {
     justify-content: center;
   }
-  .energy-cards-box1{
+  .energy-cards-box1 {
     margin-top: 30px;
   }
 }
-@media(max-width:850px) {
+@media (max-width: 850px) {
   .nav-links,
   .contact {
     display: none;
@@ -532,45 +609,47 @@ line-height: 25px;
   .info-section-container {
     flex-direction: column;
   }
-  .info-section-box1,.info-section-box2{
+  .info-section-box1,
+  .info-section-box2 {
     width: 100%;
   }
-  .info-section-box2 img{
+  .info-section-box2 img {
     max-width: 90%;
   }
   .box2-img-rectangle {
-  width: 40%;
+    width: 40%;
   }
-  .solarkits-cards-container{
-  flex-direction: column; 
-  justify-content: center;
-  gap: 30px;
-    }
-    .solarkits-cards{
+  .solarkits-cards-container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  .solarkits-cards {
     margin: auto;
-    }
-    .our-values-cards{
-      width: 45%;
-    }
-}
-@media(max-width:768px) {
-  .energy-cards-box1,.energy-cards-box2{
-flex-direction: column;
-    }
-    .energy-cards{
-  width: 60%;
-  margin:auto;
-      }
-.our-values-container {
-  flex-direction: column;
   }
-  .our-values-cards{
+  .our-values-cards {
+    width: 45%;
+  }
+}
+@media (max-width: 768px) {
+  .energy-cards-box1,
+  .energy-cards-box2 {
+    flex-direction: column;
+  }
+  .energy-cards {
+    width: 60%;
+    margin: auto;
+  }
+  .our-values-container {
+    flex-direction: column;
+  }
+  .our-values-cards {
     width: 68%;
     margin: auto;
     margin-top: 30px;
   }
 }
-@media(max-width:500px) {
+@media (max-width: 500px) {
   .solar-btn2 {
     margin-left: 0;
     margin-top: 5px;
@@ -586,29 +665,29 @@ flex-direction: column;
   .info-section-container {
     padding-bottom: 10%;
   }
-  .power-section-heading{
+  .power-section-heading {
     font-size: 35px;
   }
-.solarkits-container h1{
-  text-align: center;
-  padding-top: 20%;
-}
-.repair-section-container{
-  width: 85%;
-  padding: 30px;
-}
-.repair-section-container h1{
-font-size: 25px;
-}
-.repair-section-container p{
-font-size: 14px;
-}
-.energy-cards{
-  width: 95%;
-      }
-      .our-values-cards{
-        width: 95%;
-        margin: auto;
-        margin-top: 30px;
-      }
+  .solarkits-container h1 {
+    text-align: center;
+    padding-top: 20%;
+  }
+  .repair-section-container {
+    width: 85%;
+    padding: 30px;
+  }
+  .repair-section-container h1 {
+    font-size: 25px;
+  }
+  .repair-section-container p {
+    font-size: 14px;
+  }
+  .energy-cards {
+    width: 95%;
+  }
+  .our-values-cards {
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+  }
 }
