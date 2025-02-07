@@ -13,6 +13,7 @@ html {
   --header-bg: #0b9586;
   --yellow-bg: #ffbb1c;
   --light-green: #84bd3a;
+  --footer-color: #283646;
 }
 /* navbar styles*/
 nav {
@@ -44,9 +45,7 @@ nav {
   display: flex;
   gap: 40px;
 }
-.nav-links a,
-.contact a,
-.mobile-menu a {
+.nav-links a,.contact a,.mobile-menu a {
   text-decoration: none;
   color: white;
   font-size: 16px;
@@ -66,8 +65,7 @@ nav {
   font-size: 16px;
   text-align: right;
 }
-.nav-links li:hover,
-.nav-links li:active,
+.nav-links li:hover,.nav-links li:active,
 .active {
   background-color: #0b8475c7;
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
@@ -159,14 +157,13 @@ nav {
 }
 /* info seconed section */
 .info-section,
-.solarkits-section,.woc-section{
+.solarkits-section,
+.woc-section {
   min-height: 95vh;
   position: relative;
 }
 .info-section-container {
   margin-left: 7.5%;
-  /* position: absolute;
-  top: 15%; */
   padding-top: 5%;
   padding-bottom: 5%;
   display: flex;
@@ -324,7 +321,6 @@ nav {
   margin: auto;
   display: flex;
   word-wrap: break-word;
-  /* gap: 30px; */
   flex-wrap: wrap;
 }
 .energy-section-text {
@@ -371,13 +367,10 @@ nav {
   background-color: #3cab900d;
   transition: transform 0.3s ease-in-out;
 }
-.energy-cards:hover,
-.solarkits-cards:hover,
-.solar-btn1:hover,
-.solar-btn2:hover,
-.power-section button:hover,
-.our-values-cards:hover ,
-.woc-container-box2:hover{
+.energy-cards:hover,.solarkits-cards:hover,
+.solar-btn1:hover,.solar-btn2:hover,
+.power-section button:hover,.our-values-cards:hover,
+.woc-container-box2:hover {
   transform: scale(1.03); /* Increases size by 10% on hover */
 }
 .energy-cards-img {
@@ -450,88 +443,160 @@ nav {
   line-height: 25px;
 }
 /* woc section */
-.woc-section-container{
+.woc-section-container {
   width: 85%;
   margin: auto;
   padding: 130px 0;
   display: flex;
-  /* justify-content: space-between; */
   gap: 10%;
   word-wrap: break-word;
 }
-.woc-container-box1{
+.woc-container-box1 {
   width: 35%;
 }
-.woc-container-box1 h1{
-font-size: 48px;
-margin-top: 30px;
+.woc-container-box1 h1 {
+  font-size: 48px;
+  margin-top: 30px;
 }
-.woc-container-box2{
-flex: 1;
-background-color: #3CAB900F;
-border-radius: 20px;
-padding: 50px;
-/* height: 450px; */
-transition: transform 0.3s ease-in-out;
+.woc-container-box2 {
+  flex: 1;
+  background-color: #3cab900f;
+  border-radius: 20px;
+  padding: 50px;
+  transition: transform 0.3s ease-in-out;
 }
-.woc-box2-row1,.woc-box2-row3{
+.woc-box2-row1,.woc-box2-row3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.woc-box2-row1 p{
-color:#3CAB90 ;
-font-size: 18px;
-font-weight: 600;
+.woc-box2-row1 p {
+  color: #3cab90;
+  font-size: 18px;
+  font-weight: 600;
 }
 .dots {
   display: flex;
   gap: 8px;
 }
-
 .dots span {
   width: 8px;
   height: 8px;
   background-color: lightgray;
   border-radius: 50%;
 }
-
 .dots span:first-child {
   background-color: gray; /* Active dot */
 }
-.woc-box2-text{
+.woc-box2-text {
   margin-top: 40px;
   width: 85%;
   font-size: 24px;
 }
-.woc-box1-img{
+.woc-box1-img {
   margin-top: 15%;
 }
-.woc-container-box1 p{
+.woc-container-box1 p {
   margin-top: 30px;
   font-size: 20px;
 }
-.box2-row3-row1{
+.box2-row3-row1 {
   display: flex;
   margin-top: 15%;
   line-height: 28px;
   gap: 15px;
 }
-.box2-row3-row1 img{
-max-width: 100%;
+.box2-row3-row1 img {
+  max-width: 100%;
 }
-.woc-row3-arrows{
+.woc-row3-arrows {
   display: flex;
   gap: 15px;
   margin-top: 15%;
 }
-
-
-
-
-
-
-
+footer {
+  background-color: var(--footer-color);
+}
+.footer-container {
+  width: 85%;
+  margin: auto;
+  padding: 50px 0;
+}
+.footer-logo {
+  background-image: url("../img/logo.png");
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: luminosity;
+  margin: 15px 0 15px 0;
+  width: 140px;
+  height: 45px;
+}
+.footer-row1,.footer-row2,.footer-row3 {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-row1 p {
+  margin-top: auto;
+  color: white;
+  margin-right: 9%;
+}
+.footer-row2 {
+  margin-top: 25px;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.footer-row3 {
+  margin-top: 30px;
+}
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}
+.footer-Subscribe {
+  background-color: #ffffff17;
+  border: 1px solid #b3bdc7;
+  border-radius: 30px;
+  padding: 11px 0 11px 20px;
+  color: #92989f;
+}
+.footer-Subscribe span {
+  background-color: #ffbb1c;
+  padding: 11px 25px;
+  border-radius: 30px;
+  margin-left: 40px;
+  color: white;
+}
+hr {
+  background-color: #71777d;
+  height: 2px;
+  border: none;}
+.footer-bottom-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.footer-bottom-links a {
+  text-decoration: none;
+  color: #92989f;
+  font-size: 14px;
+}
+.footer-bottom-links li::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  background-color: #92989f;
+  margin-left: 15px;
+  vertical-align: middle;}
+.footer-row3 p {
+  color: #92989f;
+  font-size: 14px;
+}
 /* Responsive */
 @media (max-width: 1200px) {
   .solarkits-cards-container {
@@ -542,8 +607,7 @@ max-width: 100%;
     flex-wrap: wrap;
   }
   .our-values-cards {
-    width: 40%;
-  }
+    width: 40%;}
 }
 @media (max-width: 1000px) {
   .info-section-heading {
@@ -563,8 +627,7 @@ max-width: 100%;
   .contact a {
     font-size: 16px;
   }
-  .contact p,
-  .nav-links a {
+  .contact p,.nav-links a {
     font-size: 12px;
   }
   #number {
@@ -576,155 +639,177 @@ max-width: 100%;
   .energy-section-text {
     width: 100%;
   }
-  .energy-cards-box1,
-  .energy-cards-box2 {
+  .energy-cards-box1,.energy-cards-box2 {
     justify-content: center;
   }
   .energy-cards-box1 {
     margin-top: 30px;
   }
-}
-@media (max-width: 850px) {
-  .nav-links,
-  .contact {
-    display: none;
-  }
-  .mobile-menu li {
-    margin: 8px;
-  }
-  .mobile-menu li:hover,
-  .mobile-menu li:active {
-    background-color: #0b8475c7;
-    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
-  }
-  .mobile-menu p {
-    color: white;
-  }
-  .hamburger {
-    display: block;
-  }
-  .solar-text {
-    width: 95%;
-  }
-  .solar-text-heading {
-    font-size: 25px;
-  }
-  .solar-text-content {
-    font-size: 18px;
-  }
-  .info-section-container {
+  .footer-row1 {
     flex-direction: column;
   }
-  .info-section-box1,
-  .info-section-box2 {
-    width: 100%;
-  }
-  .info-section-box2 img {
-    max-width: 90%;
-  }
-  .box2-img-rectangle {
-    width: 40%;
-  }
-  .solarkits-cards-container {
+  .footer-row2,.footer-row3 {
     flex-direction: column;
-    justify-content: center;
     gap: 30px;
+    margin-top: 50px;
   }
-  .solarkits-cards {
-    margin: auto;
-  }
-  .our-values-cards {
-    width: 45%;
-  }
-  .woc-section-container{
-flex-direction: column;
-padding: 50px 0;
-}
-.woc-container-box1{
-  width: 100%;
-}
-.woc-container-box2{
-  margin-top: 60px;
-}
-.woc-container-box1 h1{
-  font-size: 40px;
-  }
-  .woc-box2-row1 p{
-font-size: 16px;
-  }
-}
-@media (max-width: 768px) {
-  .energy-cards-box1,
-  .energy-cards-box2 {
+  .footer-links,.footer-bottom-links {
     flex-direction: column;
+    align-items: center;
   }
-  .energy-cards {
-    width: 60%;
-    margin: auto;
+  .footer-row3 p {
+    text-align: center;
   }
-  .our-values-container {
-    flex-direction: column;
-  }
-  .our-values-cards {
-    width: 68%;
-    margin: auto;
-    margin-top: 30px;
-  }
-  .woc-box2-text{
-    width: 100%;
-  }
-  .woc-box2-text{
-    font-size: 16px;
-  }
-  .woc-container-box2{
-    padding: 0;
-  }
-}
-@media (max-width: 500px) {
-  .solar-btn2 {
-    margin-left: 0;
-    margin-top: 5px;
-  }
-  .box2-img-rectangle {
-    width: 60%;
-    left: -10px;
-    bottom: -10px;
-  }
-  .info-features span {
+  .footer-row1 p {
     font-size: 12px;
   }
-  .info-section-container {
-    padding-bottom: 10%;
-  }
-  .power-section-heading {
-    font-size: 35px;
-  }
-  .solarkits-container h1 {
-    text-align: center;
-    padding-top: 20%;
-  }
-  .repair-section-container {
-    width: 85%;
-    padding: 30px;
-  }
-  .repair-section-container h1 {
-    font-size: 25px;
-  }
-  .repair-section-container p {
-    font-size: 14px;
-  }
-  .energy-cards {
-    width: 95%;
-  }
-  .our-values-cards {
-    width: 95%;
-    margin: auto;
-    margin-top: 30px;
-  }
-  .woc-box2-row3{
-    flex-direction: column;
-  }
-  .woc-container-box1 h1{
-    font-size: 35px;
+  @media (max-width: 850px) {
+    .nav-links,
+    .contact {
+      display: none;
     }
+    .mobile-menu li {
+      margin: 8px;
+    }
+    .mobile-menu li:hover,.mobile-menu li:active {
+      background-color: #0b8475c7;
+      box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+    }
+    .mobile-menu p {
+      color: white;
+    }
+    .hamburger {
+      display: block;
+    }
+    .solar-text {
+      width: 95%;
+    }
+    .solar-text-heading {
+      font-size: 25px;
+    }
+    .solar-text-content {
+      font-size: 18px;
+    }
+    .info-section-container {
+      flex-direction: column;
+    }
+    .info-section-box1,.info-section-box2 {
+      width: 100%;
+    }
+    .info-section-box2 img {
+      max-width: 90%;
+    }
+    .box2-img-rectangle {
+      width: 40%;
+    }
+    .solarkits-cards-container {
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+    }
+    .solarkits-cards {
+      margin: auto;
+    }
+    .our-values-cards {
+      width: 45%;
+    }
+    .woc-section-container {
+      flex-direction: column;
+      padding: 50px 0;
+    }
+    .woc-container-box1 {
+      width: 100%;
+    }
+    .woc-container-box2 {
+      margin-top: 60px;
+    }
+    .woc-container-box1 h1 {
+      font-size: 40px;
+    }
+    .woc-box2-row1 p {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 768px) {
+    .energy-cards-box1,.energy-cards-box2 {
+      flex-direction: column;
+    }
+    .energy-cards {
+      width: 60%;
+      margin: auto;
+    }
+    .our-values-container {
+      flex-direction: column;
+    }
+    .our-values-cards {
+      width: 68%;
+      margin: auto;
+      margin-top: 30px;
+    }
+    .woc-box2-text {
+      width: 100%;
+    }
+    .woc-box2-text {
+      font-size: 16px;
+    }
+    .woc-container-box2 {
+      padding: 0;
+    }
+  }
+  @media (max-width: 500px) {
+    .solar-btn2 {
+      margin-left: 0;
+      margin-top: 5px;
+    }
+    .box2-img-rectangle {
+      width: 60%;
+      left: -10px;
+      bottom: -10px;
+    }
+    .info-features span {
+      font-size: 12px;
+    }
+    .info-section-container {
+      padding-bottom: 10%;
+    }
+    .power-section-heading {
+      font-size: 35px;
+    }
+    .solarkits-container h1 {
+      text-align: center;
+      padding-top: 20%;
+    }
+    .repair-section-container {
+      width: 85%;
+      padding: 30px;
+    }
+    .repair-section-container h1 {
+      font-size: 25px;
+    }
+    .repair-section-container p {
+      font-size: 14px;
+    }
+    .energy-cards {
+      width: 95%;
+    }
+    .our-values-cards {
+      width: 95%;
+      margin: auto;
+      margin-top: 30px;
+    }
+    .woc-box2-row3 {
+      flex-direction: column;
+    }
+    .woc-container-box1 h1 {
+      font-size: 35px;
+    }
+    .footer-Subscribe {
+      padding: 11px 0 11px 10px;
+      font-size: 12px;
+    }
+    .footer-Subscribe span {
+      padding: 11px 15px;
+      margin-left: 5px;
+    }
+  }
 }
