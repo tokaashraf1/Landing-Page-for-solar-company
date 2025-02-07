@@ -4,8 +4,7 @@ This is a responsive landing page for a solar panel company. It is designed to b
 https://tokaashraf1.github.io/Landing-Page-for-solar-company/
 <br>
 <br>
- ## 🔗Landing Page Preview
-<br>
+ ## 🚀 Landing Page Preview
 <br>
 <br>
 <img src="img/preview.jpeg" alt="img" width="800" />
