@@ -6,4 +6,4 @@ https://tokaashraf1.github.io/Landing-Page-for-solar-company/
 <br>
 <br>
 <br>
-<img src="img/preview.jpg" alt="img" width="700" />
+<img src="img/preview.jpeg" alt="img" width="700" />
